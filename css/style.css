@@ -122,8 +122,14 @@ header {
     font-weight: 400;
 }
 
-.side-nav {
-    width: 20%;
+.side-nav-type-a {
+    width: 15%;
+}
+
+.side-nav-type-b {
+    width: 15%;
+    padding:0 5px;
+    ;
 }
 
 /*main*/
@@ -135,7 +141,11 @@ header {
 .card-wrapper {
     padding: 10px;
     width: calc(100% / 3);
-    
+
+}
+
+.card-wrapper:hover {
+    box-shadow: -5px 10px 25px rgba(54, 54, 54, 0.299);
 }
 
 .prices-layout {

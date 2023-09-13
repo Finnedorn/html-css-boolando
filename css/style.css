@@ -80,7 +80,6 @@ img {
 
 .p-absolute {
     position: absolute;
-    z-index: 1;
 }
 
 .p-top-left {
@@ -91,6 +90,13 @@ img {
 .p-down-right {
     left: 0;
     bottom: 40px;
+}
+
+.p-total {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 /*header-navbar*/
@@ -124,12 +130,22 @@ header {
 
 .prices-layout {
     padding: 5px 5px 5px 0;
+    z-index: 1;
 }
 
 .favourites-type-a {
     font-size: 1.5rem;
     background-color: var(--white-font);
     padding: 5px 15px;
+    z-index: 3;
+}
+
+.favourites-type-b {
+    opacity: 0;
+    font-size: 1.5rem;
+    background-color: var(--red-icon);
+    padding: 5px 15px;
+    
 }
 
 .prices-card-red {
@@ -151,3 +167,12 @@ header {
 .product-infos-layout {
     padding: 5px 0 5px 0;
 }
+
+#photo-type-b {
+    opacity: 0;
+}
+
+#photo-type-b:hover {
+    opacity: 1;
+}
+

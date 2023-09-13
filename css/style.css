@@ -99,6 +99,11 @@ img {
     bottom: 0;
 }
 
+.z-index-high {
+    z-index: 3;
+}
+
+
 /*header-navbar*/
 
 header {
@@ -117,6 +122,10 @@ header {
     font-weight: 400;
 }
 
+.side-nav {
+    width: 20%;
+}
+
 /*main*/
 
 .shop-window-wrapper {
@@ -126,26 +135,28 @@ header {
 .card-wrapper {
     padding: 10px;
     width: calc(100% / 3);
+    
 }
 
 .prices-layout {
     padding: 5px 5px 5px 0;
-    z-index: 1;
 }
 
 .favourites-type-a {
     font-size: 1.5rem;
     background-color: var(--white-font);
     padding: 5px 15px;
-    z-index: 3;
 }
 
 .favourites-type-b {
     opacity: 0;
     font-size: 1.5rem;
-    background-color: var(--red-icon);
+    color: var(--red-icon);
     padding: 5px 15px;
-    
+}
+
+.favourites-type-b:hover {
+    opacity: 1;
 }
 
 .prices-card-red {
@@ -168,11 +179,11 @@ header {
     padding: 5px 0 5px 0;
 }
 
-#photo-type-b {
+.photo-type-b {
     opacity: 0;
 }
 
-#photo-type-b:hover {
+.photo-type-b:hover {
     opacity: 1;
 }
 

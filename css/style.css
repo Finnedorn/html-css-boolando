@@ -72,7 +72,17 @@ img {
     align-content: center;
 }
 
+.flex-end {
+    justify-content: flex-end;
+    align-items: center;
+}
+
 /*position*/
+
+.p-fixed {
+    position: fixed;
+    z-index: 4;
+}
 
 .p-relative {
     position: relative;
@@ -106,7 +116,8 @@ img {
 
 /*header-navbar*/
 
-header {
+.banner {
+    width: 100%;
     background-color: var(--orange-nav);
     padding: 10px 0 10px 0;
     box-shadow: 0 3px 10px rgba(54, 54, 54, 0.299);
@@ -126,13 +137,16 @@ header {
     width: 15%;
 }
 
-.side-nav-type-b {
-    width: 15%;
-    padding:0 5px;
-    ;
+.social-icon-layout {
+    padding: 0 10px;
 }
 
+
 /*main*/
+
+.main-padding {
+    padding: 50px 0;
+}
 
 .shop-window-wrapper {
     padding: 50px 0 50px 0;

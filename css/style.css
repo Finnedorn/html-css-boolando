@@ -1,0 +1,148 @@
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*root-palette*/
+
+:root {
+    --orange-nav: #ff6900;
+    --white-font: #fbfbfb;
+    --black-font: rgb(33, 33, 33);
+    --red-icon: #ff0000;
+    --green-icon: #008000;
+    background-color: #ffffff;
+}
+
+/*miscellaneous*/
+
+ul>li {
+    list-style: none;
+}
+
+i {
+    color: var(--white-font);
+}
+
+li>i {
+   margin-left: 5px;
+}
+
+h4 {
+    color: var(--white-font);
+    display: inline-block;
+    margin-right: 2px;
+    padding: 2px;
+}
+
+h3, span { 
+    color: var(--black-font)
+}
+
+img {
+    width: 100%;
+}
+
+/*flex*/
+
+.flex-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+/*position*/
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+    z-index: 1;
+}
+
+.p-top-left {
+    right: 0;
+    top: 10px;
+}
+
+.p-down-right {
+    left: 0;
+    bottom: 10px;
+}
+
+/*header-navbar*/
+
+header {
+    background-color: var(--orange-nav);
+    padding: 10px 0 10px 0;
+    box-shadow: 0 3px 10px rgba(54, 54, 54, 0.299);
+}
+
+#boolando-logo {
+    width: 100px;
+}
+
+.nav-a-layout {
+    margin-right: 5px;
+    color: var(--white-font);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/*main*/
+
+.card-wrapper {
+    padding: 10px;
+    width: calc(100% / 3);
+}
+
+.prices-layout {
+    padding: 5px 5px 5px 0;
+}
+
+.favourites-type-a {
+    background-color: var(--white-font);
+    padding: 2px;
+}
+
+.prices-card-red {
+    background-color: var(--red-icon);
+}
+
+.prices-card-green {
+    background-color: var(--green-icon);
+}
+
+.prices-text-red {
+    color: #ff0000 !important;
+}
+
+.prices-text-on-sale {
+    text-decoration: line-through;
+}
+
+.product-infos-layout {
+    padding: 5px 0 5px 0;
+}

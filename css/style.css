@@ -27,25 +27,26 @@
 
 ul>li {
     list-style: none;
+    margin-left: 10px;
 }
 
 i {
     color: var(--white-font);
 }
 
-li>i {
-   margin-left: 5px;
-}
-
 h4 {
+    font-size: 0.7rem;
     color: var(--white-font);
     display: inline-block;
-    margin-right: 2px;
-    padding: 2px;
+    padding: 5px;
 }
 
 h3, span { 
     color: var(--black-font)
+}
+
+span {
+    font-size: 0.9rem;
 }
 
 img {
@@ -89,7 +90,7 @@ img {
 
 .p-down-right {
     left: 0;
-    bottom: 10px;
+    bottom: 40px;
 }
 
 /*header-navbar*/
@@ -113,6 +114,10 @@ header {
 
 /*main*/
 
+.shop-window-wrapper {
+    padding: 50px 0 50px 0;
+}
+
 .card-wrapper {
     padding: 10px;
     width: calc(100% / 3);
@@ -123,8 +128,9 @@ header {
 }
 
 .favourites-type-a {
+    font-size: 1.5rem;
     background-color: var(--white-font);
-    padding: 2px;
+    padding: 5px 15px;
 }
 
 .prices-card-red {

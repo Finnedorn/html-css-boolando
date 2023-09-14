@@ -8,7 +8,7 @@
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -16,6 +16,7 @@
 
 :root {
     --orange-nav: #ff6900;
+    --black-footer: #1a1a1a;
     --white-font: #fbfbfb;
     --black-font: rgb(33, 33, 33);
     --red-icon: #ff0000;
@@ -51,6 +52,11 @@ span {
 
 img {
     width: 100%;
+}
+
+p {
+    color: var(--white-font);
+    font-size: 1.2rem;
 }
 
 /*flex*/
@@ -124,7 +130,7 @@ img {
 }
 
 #boolando-logo {
-    width: 100px;
+    max-width: 100px;
 }
 
 .nav-a-layout {
@@ -154,7 +160,7 @@ img {
 
 .card-wrapper {
     padding: 10px;
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
 
 }
 
@@ -211,3 +217,29 @@ img {
     opacity: 1;
 }
 
+/*footer*/
+
+.footerbar {
+    background-color: var(--black-footer);
+    padding: 20px 0;
+    box-shadow: 0 -3px 10px rgba(54, 54, 54, 0.299);
+}
+
+.footer-a-layout {
+    color: var(--white-font);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.footer-top-font-layout {
+    color: var(--white-font);
+    padding-bottom: 5px;
+}
+
+.footer-boolando-fontsize {
+    font-size: 1.2rem;
+}
+
+.footer-social-icon-layout {
+    padding: 0 10px;
+}

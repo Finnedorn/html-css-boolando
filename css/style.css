@@ -129,7 +129,6 @@ p {
     z-index: 3;
 }
 
-
 /*header-navbar*/
 
 .banner {
@@ -154,10 +153,9 @@ p {
     width: 15%;
 }
 
-.social-icon-layout {
+.icon-layout {
     padding: 0 10px;
 }
-
 
 /*main*/
 

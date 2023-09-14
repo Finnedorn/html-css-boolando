@@ -83,6 +83,11 @@ p {
     align-content: center;
 }
 
+.flex-start {
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .flex-end {
     justify-content: flex-end;
     align-items: center;
@@ -142,13 +147,10 @@ p {
     color: var(--white-font);
     font-size: 0.8rem;
     font-weight: 400;
+    padding: 0 5px;
 }
 
-.side-nav-type-a {
-    width: 15%;
-}
-
-.side-nav-type-b {
+.side-nav-widht {
     width: 15%;
 }
 
@@ -160,7 +162,7 @@ p {
 /*main*/
 
 .main-padding {
-    padding: 50px 0;
+    padding: 50px 0 40px 0;
 }
 
 .shop-window-wrapper {
@@ -253,10 +255,10 @@ p {
     padding: 0 10px;
 }
 
-.side-footer-type-a {
+.side-footer-widht-type-a {
     width: 33%;
 }
 
-.side-footer-type-b {
+.side-footer-widht-type-b {
     width: 10%;
 }

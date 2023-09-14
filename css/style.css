@@ -60,11 +60,6 @@ p {
 
 /*flex*/
 
-.flex-nowrap {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
 .flex-wrap {
     display: flex;
     flex-flow: row wrap;
@@ -154,7 +149,7 @@ p {
 }
 
 .side-nav-type-b {
-    width: 6%;
+    width: 15%;
 }
 
 .social-icon-layout {
@@ -259,7 +254,7 @@ p {
 }
 
 .side-footer-type-a {
-    width: 35%;
+    width: 33%;
 }
 
 .side-footer-type-b {
